@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.video-card-main{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    scroll-snap-align: start;
+    box-shadow: 1px 1px 10px .5px white;
+}
+.video-card{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.like-btn lord-icon {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    right: 0.5rem;
+    bottom: 16rem;
+    z-index: 2;
+    
+}
+
+.music-btn lord-icon {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    left: 0.5rem;
+    bottom: 2rem;
+    z-index: 2;
+}
+.comm-icon lord-icon{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    right: -10px; 
+    bottom: 10rem;
+    z-index: 3;
+
+}
+.likelabel{
+    color: white;
+    position: absolute;
+    /* width: 2rem; */
+    height: 5rem;
+    right: 1rem; 
+    bottom: 11rem;
+    z-index: 3;
+}
+.commentlabel{
+    color: white;
+    position: absolute;
+    /* width: 5rem; */
+    height: 5rem;
+    right: 1rem; 
+    bottom: 6rem;
+    z-index: 3;
+}
+.music-name{
+    color: white;
+    position: absolute;
+    width: 9rem;
+    height: 3rem;
+    left: 5rem;
+    bottom: 1.5rem;
+    z-index: 2;
+    overflow: hidden;
+}
+.comment-box-main{
+    /* position: relative; */
+    background-color: #000000a6;
+    /* box-shadow:rgba(102, 177, 247, 0.082); ; */
+    position: absolute;
+    width: 100%;
+    max-height: 13rem;
+    /* min-height: 12%; */
+    bottom: 0%;
+    z-index: 2;
+    /* overflow-y:auto; */
+
+}
+.comment-profile-all{
+    /* height: calc(100% - 2.5rem); */
+    position: absolute;
+    right: 3rem;
+    bottom: 1.5rem;
+}
+
+
+.comment-profile{
+    display:flex;
+    margin: .5rem;
+    
+}
+.comment-input-main{
+    position: absolute;  
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem;
+    
+}
+.comment-profile-img img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.comment-input-main input{
+    width: 90%;
+    outline: none;
+    border: none;
+    color: white;
+    /* background-color: #000000a6; */
+    background-color: #898fed29;
+    border-radius: 10px;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.comment-btn{
+    width: 10%;
+    outline: none;
+}
+.comment-btn img{
+    height: 100%;
+}
+.comment-profile-info{
+    margin-left: 0.5rem;
+}
+.comment-profile-info h6{
+    line-height: 1rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: azure;
+}
+.comment-profile-info p{
+    font-size: 12px;
+    color: azure;
+}

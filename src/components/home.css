@@ -1,0 +1,59 @@
+.title{
+    
+    position: fixed;
+    color: white;
+    font-weight: lighter;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1;
+    
+}
+
+.shorts-div{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: white;     */
+    
+}
+.video-container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    scroll-snap-type: y mandatory;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+    overflow-y: scroll;
+
+}
+
+#logout{
+    color: none;
+    position: fixed;
+    left: 59%;
+    z-index: 3;
+    top: 1px;
+    outline: none;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+/* #upload-icon{
+} */
+.upload-img{
+    
+    position: fixed;
+    left: 35%;
+    z-index: 3;
+    top: 1px;
+    outline: none;
+    
+}
+.upload-img lord-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.upload{
+    display: none;
+    visibility: hidden;
+
+}
